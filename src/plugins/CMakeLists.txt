@@ -24,6 +24,7 @@ add_subdirectory(find)
 add_subdirectory(option)
 add_subdirectory(codeporting)
 add_subdirectory(performance)
+add_subdirectory(runtime)
 
 if (${CMAKE_SYSTEM_PROCESSOR} STREQUAL "x86_64"
         OR ${CMAKE_SYSTEM_PROCESSOR} STREQUAL "aarch64")

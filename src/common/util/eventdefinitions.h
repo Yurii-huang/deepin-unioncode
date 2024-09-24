@@ -129,6 +129,10 @@ OPI_OBJECT(workspace,
            OPI_INTERFACE(foldAll)
            )
 
+OPI_OBJECT(runtime,
+           OPI_INTERFACE(launchBackend)
+           )
+
 struct AnalysedData
 {
     struct TokenMap
